@@ -1,0 +1,55 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #333;
+  color: #fff;
+}
+
+.features {
+  margin: 40px 0;
+}
+
+.feature-list {
+  display: flex;
+  gap: 20px;
+}
+
+.feature-item {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
