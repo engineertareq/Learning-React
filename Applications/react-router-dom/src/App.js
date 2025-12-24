@@ -6,6 +6,7 @@ import './App.css';
 import Navbar from "./components/NavBar"
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
+import BlogPage from './pages/BlogPage';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/news" element={<NewsPage />} />
                 <Route path="/contact" element={<ContactPage />} />
+                <Route path="/blog" element={<BlogPage />} />
             </Routes>
         </Router>
     );
