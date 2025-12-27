@@ -7,6 +7,7 @@ import Navbar from "./components/NavBar"
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
 import BlogPage from './pages/BlogPage';
+import BlogEntry from './pages/BlogEntry';
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                 <Route path="/news" element={<NewsPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/blog" element={<BlogPage />} />
+                <Route path="/blog/new" element={<BlogEntry />} />
             </Routes>
         </Router>
     );
